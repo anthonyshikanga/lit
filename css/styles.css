@@ -1,1 +1,28 @@
-/* Do your own styling here */
+.page-bg {
+  background-image: url("../img/rave-bg-3.jpg");
+  background-size: cover;
+  filter: blur(3px);
+  background-position: 0px -100px;
+  transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.map{
+  background-color: grey;
+}
+
+.top-bar {
+  height: 100px;
+  padding: 0px;
+}
+
+.search-bar, .home-icon, .profile {
+  background-color: white;
+  text-align: center;
+  line-height: 100px;
+}
